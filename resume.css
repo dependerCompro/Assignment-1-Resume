@@ -7,7 +7,7 @@ hr{
     margin-top: 0;
     padding: 0;
     height: 1px;
-    border: 3px solid black;
+    border: 3px solid;
 }
 
 .header h1{
@@ -53,15 +53,6 @@ hr{
     font-weight: 700;
 }
 
-.date{
-    display: inline-block;
-    margin-right: 2rem;
-}
-
-.location{
-    display: inline-block;
-}
-
 .experience-field h2{
     padding-top: 1rem;
     font-weight: 400;
@@ -71,6 +62,15 @@ hr{
 .experience-field h3{
     font-weight: 600;
     font-size: 1.4rem;
+}
+
+.date{
+    display: inline-block;
+    margin-right: 2rem;
+}
+
+.location{
+    display: inline-block;
 }
 
 .skills h1{
@@ -86,6 +86,11 @@ hr{
     margin: 0.2rem;
     border-radius: 0.4rem;
     display: inline-block;
+}
+
+.project-field h2{
+    font-weight: 600;
+    font-size: 1.4rem;
 }
 
 /*  -----  Responsive  ------   */
@@ -122,6 +127,11 @@ hr{
     }
     
     .experience-field h3{
+        font-weight: 600;
+        font-size: 1rem;
+    }
+
+    .project-field h2{
         font-weight: 600;
         font-size: 1rem;
     }
