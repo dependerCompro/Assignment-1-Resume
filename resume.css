@@ -1,0 +1,128 @@
+body{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 5% 8%;
+}
+
+hr{
+    margin-top: 0;
+    padding: 0;
+    height: 1px;
+    border: 3px solid black;
+}
+
+.header h1{
+    font-weight: 700;
+    font-size: 4rem;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+}
+
+.nav a{
+    text-decoration: none;
+    color: black;
+    font-weight: 800;
+}
+
+.main{
+    /* border: 2px solid cornflowerblue; */
+    display: flex;
+    width: 100%;
+}
+
+.col-one{
+    /* border: 2px solid green; */
+    width: 60%;
+    padding-right: 6%;
+    padding-top: 3%;
+}
+
+.col-two{
+    /* border: 2px solid red; */
+    width: 45%;
+    padding-top: 3%;
+}
+
+.experience h1{
+    padding-top: 2rem;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.date{
+    display: inline-block;
+    margin-right: 2rem;
+}
+
+.location{
+    display: inline-block;
+}
+
+.experience-field h2{
+    padding-top: 1rem;
+    font-weight: 400;
+    font-size: 1.6rem;
+}
+
+.experience-field h3{
+    font-weight: 600;
+    font-size: 1.4rem;
+}
+
+.skills h1{
+    padding-top: 2rem;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.skill-card{
+    border: 0.1rem solid grey;
+    width: fit-content;
+    padding: 0.3rem;
+    margin: 0.2rem;
+    border-radius: 0.4rem;
+    display: inline-block;
+}
+
+/*  -----  Responsive  ------   */
+
+@media screen and (max-width:768px) {
+    .header h1{
+        font-size: 2rem;
+    }
+
+    .nav{
+        flex-direction: column;
+    }
+
+    .main{
+        flex-direction: column;
+    }
+    .col-one{
+        width: 100%;
+    }
+
+    .col-two{
+        width: 100%;
+    }
+
+    .experience h1{
+        padding-top: 2rem;
+        font-size: 1.5rem;
+        font-weight: 700;
+    }
+
+    .experience-field h2{
+        font-weight: 400;
+        font-size: 1.2rem;
+    }
+    
+    .experience-field h3{
+        font-weight: 600;
+        font-size: 1rem;
+    }
+}
