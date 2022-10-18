@@ -6,8 +6,8 @@ body{
 hr{
     margin-top: 0;
     padding: 0;
-    height: 1px;
-    border: 3px solid;
+    height: 0.3rem;
+    background-color: black;
 }
 
 .header h1{
@@ -51,17 +51,19 @@ hr{
     padding-top: 2rem;
     font-size: 2rem;
     font-weight: 700;
+    margin-bottom: 0;
 }
 
-.experience-field h2{
+.experience__field h2{
     padding-top: 1rem;
     font-weight: 400;
     font-size: 1.6rem;
 }
 
-.experience-field h3{
+.experience__field h3{
     font-weight: 600;
     font-size: 1.4rem;
+    margin-bottom: 0;
 }
 
 .date{
@@ -77,9 +79,10 @@ hr{
     padding-top: 2rem;
     font-size: 2rem;
     font-weight: 700;
+    margin-bottom: 0;
 }
 
-.skill-card{
+.skill__card{
     border: 0.1rem solid grey;
     width: fit-content;
     padding: 0.3rem;
@@ -88,9 +91,79 @@ hr{
     display: inline-block;
 }
 
-.project-field h2{
+.ror h1{
+    padding-top: 2rem;
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+.ror__field h2{
+    padding-top: 1rem;
+    font-weight: 400;
+    font-size: 1.6rem;
+}
+
+.ror__field h3{
     font-weight: 600;
     font-size: 1.4rem;
+    margin-bottom: 0;
+}
+
+.certifications h1{
+    padding-top: 2rem;
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+.education h1{
+    padding-top: 2rem;
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+.education__field h2{
+    padding-top: 1rem;
+    font-weight: 400;
+    font-size: 1.6rem;
+}
+
+.education__field h3{
+    font-weight: 600;
+    font-size: 1.4rem;
+    margin-bottom: 0;
+}
+
+.project h1{
+    padding-top: 2rem;
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+.project__field h2{
+    font-weight: 600;
+    font-size: 1.4rem;
+}
+
+.publication h1{
+    padding-top: 2rem;
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+.publication__field h2{
+    padding-top: 1rem;
+    font-weight: 400;
+    font-size: 1.4rem;
+}
+
+.publication__field h3{
+    font-weight: 600;
+    font-size: 1rem;
 }
 
 /*  -----  Responsive  ------   */
@@ -119,19 +192,92 @@ hr{
         padding-top: 2rem;
         font-size: 1.5rem;
         font-weight: 700;
+        margin-bottom: 0;
     }
 
-    .experience-field h2{
+    .experience__field h2{
         font-weight: 400;
         font-size: 1.2rem;
     }
     
-    .experience-field h3{
+    .experience__field h3{
         font-weight: 600;
         font-size: 1rem;
     }
 
-    .project-field h2{
+    .skills h1{
+        padding-top: 2rem;
+        font-size: 1.5rem;
+        font-weight: 700;
+        margin-bottom: 0;
+    }
+
+    .ror h1{
+        padding-top: 2rem;
+        font-size: 1.5rem;
+        font-weight: 700;
+        margin-bottom: 0;
+    }
+
+    .ror__field h2{
+        font-weight: 400;
+        font-size: 1.2rem;
+    }
+    
+    .ror__field h3{
+        font-weight: 600;
+        font-size: 1rem;
+    }
+
+    .certifications h1{
+        padding-top: 2rem;
+        font-size: 1.5rem;
+        font-weight: 700;
+        margin-bottom: 0;
+    }
+
+    .education h1{
+        padding-top: 2rem;
+        font-size: 1.5rem;
+        font-weight: 700;
+        margin-bottom: 0;
+    }
+
+    .education__field h2{
+        font-weight: 400;
+        font-size: 1.2rem;
+    }
+    
+    .education__field h3{
+        font-weight: 600;
+        font-size: 1rem;
+    }
+
+    .project h1{
+        padding-top: 2rem;
+        font-size: 1.5rem;
+        font-weight: 700;
+        margin-bottom: 0;
+    }
+
+    .project__field h2{
+        font-weight: 600;
+        font-size: 1rem;
+    }
+
+    .publication h1{
+        padding-top: 2rem;
+        font-size: 1.5rem;
+        font-weight: 700;
+        margin-bottom: 0;
+    }
+
+    .publication__field h2{
+        font-weight: 400;
+        font-size: 1.2rem;
+    }
+    
+    .publication__field h3{
         font-weight: 600;
         font-size: 1rem;
     }
